@@ -1,0 +1,24 @@
+{
+  "name": "stackup_fi",
+  "version": "0.0.1",
+  "description": "scripts for example implementation of Account Abstraction on top of stackup_fi",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "@account-abstraction/sdk": "^0.4.0",
+    "@openzeppelin/contracts": "^4.8.2",
+    "axios": "^1.2.3",
+    "commander": "^10.0.0",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.15.0",
+    "xdeployer": "^1.2.0"
+  }
+}
